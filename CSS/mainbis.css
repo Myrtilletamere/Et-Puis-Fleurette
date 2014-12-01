@@ -1,0 +1,161 @@
+body {
+	/*background-image: url('../IMG/backgroundLarge.png');
+	/*background-size: 100%, 100%
+	background-size: cover;
+	margin:0;
+	padding:0;
+	background-attachment:  no-repeat ; 
+    */
+	}
+img.superbg {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+div { 
+	/*border: 1px solid green;*/
+}
+h1 {
+      font-family : calibri;
+	  font-weight: normal;
+      font-size:  38px;
+	  text-align: center;
+	  margin-left: 400px;
+	  margin-right: 300px;
+	  margin-top: 50px;
+	  position: fixed;
+}
+p {
+float: left;
+margin-left: 10px;
+}
+/*.colline1 {
+background-image: url('../IMG/collineAcceuil.png');
+width: 100%;
+height: 100%;
+}*/
+
+/*.container {
+ width: 100%;
+ clear: both;
+ }*/
+  
+ .text {
+  width: 25%;
+  float: left;
+}  
+  .description{
+display:none;
+}
+
+#doll1 {
+width: 8.5%;
+margin-left: 0px;
+clear: both;
+position: fixed;
+}
+
+#dolls {
+width:100%;
+margin-left: -340px;
+clear: both;
+}
+ 
+.block1 {
+ width: 100%;
+ float: left;
+ /*height: 150px;*/
+ /*margin: 140px 335px auto 0px ;*/
+ margin-top: 220px;
+ margin-left: 315px;
+ margin-right: 0px;
+ clear:both;
+ 
+ }
+ 
+ #block2{
+ width: 8.5%;
+ /*height: 150px;*/
+ float: left;
+ /*margin: -190px auto auto 440px;*/
+ margin-top: 55px;
+ margin-left: 460px ;
+ clear:both;
+ position: absolute;
+ }
+ 
+
+ #block3{
+ width: 8.5%;
+/*height: 150px;*/
+ float: left;
+ /*margin: -195px 530px 0px ;*/
+ margin-top: 95px;
+ margin-left: 560px ;
+ clear: both;
+position: absolute;
+ }
+  
+ 
+ #block4{
+ width: 8.5%;
+ /*height: 150px;*/
+ float: left;
+ /*margin: -195px 0px 50px 615px ;*/
+ margin-top: 125px;
+ margin-left: 660px ;
+ margin-bottom: 0px;
+ clear:both;
+ position: absolute;
+ }
+  
+ #block5{
+ width: 8.5%;
+ /*height: 150px;*/
+ float: left;
+ /*margin: -150px 0px 0px -35px ;*/
+ margin-top: 160px;
+ margin-left: 750px ;
+ margin-bottom: 0px;
+ position: absolute;
+ }
+ 
+ 
+ 
+ @media screen and (max-width:800px) {
+ h1 {
+  text-align: center;
+  margin-left: 25px;
+ }
+ /*#dolls{
+ width: 100px;
+ height: 160px;
+ margin: 10px 10px ;
+ }
+  #block1{
+ width: 100px;
+ height: 150px;
+ margin: 10px 10px ;
+ }
+ 
+  #block2{
+ width: 100px;
+ height: 150px;
+ margin: 10px 10px ;
+ }
+ 
+  #block3{
+ width: 100px;
+ height: 150px;
+ margin: 10px 10px;
+ }
+ 
+  #block4{
+ width: 100px;
+ height: 150px;
+ margin: 10px 10px;
+ }
+ */
+ }
+ 

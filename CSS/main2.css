@@ -1,0 +1,89 @@
+
+img.superbg {
+    position:fixed !important;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+h1 {
+	margin-top: 50px;
+      font-family : 'calibri';
+      font-size:  38px;
+	  text-align: center;
+	  font-weight: normal;
+}
+p {
+float: left;
+margin-left: 10px;
+}
+
+ .text {
+  width: 25%;
+  float: left;
+}  
+  
+
+ #back{
+ width: 2.5%;
+ position: fixed;
+ top: 30px;
+ left: 530px;
+ }
+ 
+ #text{
+	font-family : 'calibri';
+	background-image: url('../IMG/backgroun-transparent.png');
+	width: 550px;
+	height: 425px;
+	/*overflow: auto;*/
+	margin-top: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	}
+p1 { 
+
+	padding: 5px 10px;
+	line-height: 28px;
+	font-size: 18px;
+	}
+p2 {
+	font-size: 20px;
+	padding: 5px 10px;
+	line-height: 28px;
+	}
+
+	
+
+ 
+
+ 
+ 
+ 
+ @media screen and (max-width:700px) {
+ #block1{
+ width: 300px;
+ height: 150px;
+ margin: 10px 10px ;
+ }
+ .thumbnails-image{
+width: 150px;
+display: block;
+}
+  #block2{
+ width: 300px;
+ height: 150px;
+ margin: 10px 10px ;
+ }
+  #block3{
+ width: 300px;
+ height: 150px;
+ margin: 10px 10px;
+ }
+  #block4{
+ width: 300px;
+ height: 150px;
+ margin: 10px 110px;
+ }
+ }
